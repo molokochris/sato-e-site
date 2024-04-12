@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Home() {
   return <main className="h-screen">
-    <div className="flex flex-row px-6 py-4 items-center justify-between">
+    <div className="flex flex-row px-6 py-2 items-center justify-between">
         <div className="">
             <Image
             src="/img/menu.png"
