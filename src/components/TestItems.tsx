@@ -1,0 +1,34 @@
+const testItems = [
+    {
+        id:0,
+        product:"",
+        price:12.55,
+        src:"/img/item1.webp",
+    },{
+        id:1,
+        product:"",
+        price:12.55,
+        src:"/img/item2.webp",
+    },{
+        id:2,
+        product:"",
+        price:12.99,
+        src:"/img/item3.webp",
+    },{
+        id:3,
+        product:"",
+        price:12.99,
+        src:"/img/item4.webp",
+    },{
+        id:4,
+        product:"",
+        price:12.99,
+        src:"/img/item5.webp",
+    },{
+        id:5,
+        product:"",
+        price:12.99,
+        src:"/img/item6.webp",
+    },
+]
+export default testItems;

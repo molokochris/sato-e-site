@@ -1,13 +1,14 @@
 import Image from "next/image"
+import testItems from "/src/components/TestItems"
 
 export default function Home() {
     
-    const slideImages = [
+/*    const slideImages = [
         {id:0,src:"/img/header.webp"},
         {id:1,src:"/img/header.webp"},
         {id:1,src:"/img/header.webp"},
 
-    ]
+    ]*/
 
   return <main className="h-screen">
     <div className="flex flex-row px-6 items-center justify-between">
@@ -55,7 +56,7 @@ export default function Home() {
     </div>
 
     <div className="h-1/3 pl-2 mb-6 flex flex-row justify-between overflow-x-auto">
-        {slideImages.map((image) => {
+        {testItems.map((image) => {
             return <Image
             className="mr-2 rounded-md"
             key={image.id}
