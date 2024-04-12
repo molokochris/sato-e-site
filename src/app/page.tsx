@@ -8,12 +8,14 @@ export default function Home() {
             src="/img/menu.png"
             width={24}
             height={24}
+            alt="menu"
             />
         </div>
         <div className="">
         <Image src="/img/logo.png"
         width={50}
         height={50}
+        alt="logo"
         />
         </div>
         <div className="rounded-full bg-black w-8 h-8">
@@ -39,9 +41,13 @@ export default function Home() {
         <span className="w-28 py-2 bg-black text-sm text-white rounded-sm flex justify-center items-center">Shop Now</span>
     </div>
 
-    <div className="flex justify-between flex-row px-6 text-sm">
+    <div className="flex justify-between flex-row px-6 text-sm mb-4">
         <span className="font-bold">Recommended for you</span>
         <span className="font-thinline text-gray-400">View All</span>
+    </div>
+
+    <div className="flex flex-row overflow-x-auto">
+        <div className=""></div>
     </div>
   </main>;
 }
