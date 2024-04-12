@@ -1,6 +1,14 @@
 import Image from "next/image"
 
 export default function Home() {
+    
+    const slideImages = [
+        {id:0,src:"/img/header.webp"},
+        {id:1,src:"/img/header.webp"},
+        {id:1,src:"/img/header.webp"},
+
+    ]
+
   return <main className="h-screen">
     <div className="flex flex-row px-6 items-center justify-between">
         <div className="">
@@ -46,8 +54,22 @@ export default function Home() {
         <span className="font-thinline text-gray-400">View All</span>
     </div>
 
-    <div className="flex flex-row overflow-x-auto">
-        <div className=""></div>
+    <div className="h-1/3 pl-2 mb-6 flex flex-row justify-between overflow-x-auto">
+        {slideImages.map((image) => {
+            return <Image
+            className="mr-2 rounded-md"
+            key={image.id}
+            src={image.src}
+            alt="item-image"
+            width={300}
+            height={250}
+            quality={100}
+            />
+        })}
     </div>
+
+    <footer className="py-2 bg-black text-white font-normal text-sm text-center">
+        By Moloko Chris Poopedi
+    </footer>
   </main>;
 }
