@@ -58,7 +58,7 @@ export default function Home() {
     <div className="h-1/3 pl-2 mb-6 flex flex-row justify-between overflow-x-auto">
         {testItems.map((image) => {
             return <Image
-            className="mr-2 rounded-md"
+            className="mr-2 rounded-md w-300"
             key={image.id}
             src={image.src}
             alt="item-image"
