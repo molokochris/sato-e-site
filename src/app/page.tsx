@@ -2,13 +2,6 @@ import Image from "next/image"
 import testItems from "/src/components/TestItems"
 
 export default function Home() {
-    
-/*    const slideImages = [
-        {id:0,src:"/img/header.webp"},
-        {id:1,src:"/img/header.webp"},
-        {id:1,src:"/img/header.webp"},
-
-    ]*/
 
   return <main className="h-screen">
     <div className="flex flex-row px-6 items-center justify-between">
