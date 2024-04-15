@@ -8,7 +8,7 @@ const testItems = [
         id:1,
         product:"",
         price:12.55,
-        src:"/img/item2.jpg",
+        src:"/img/item2.webp",
     },{
         id:2,
         product:"",
